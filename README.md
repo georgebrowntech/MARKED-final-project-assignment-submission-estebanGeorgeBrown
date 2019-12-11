@@ -3,14 +3,19 @@
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.19.
 
 ## Instructions
-clone repo
-npm install in root directory 
-another terminal cd into backend and npm install 
-npm run start from root directory 
-nodemon server.js from backend
+clone repo . 
+-npm install in root directory .    
+-another terminal cd into backend and npm install .      
+-npm run start from root directory .  
+-nodemon server.js from backend .  
 
-on mac:
-only npm run start from root directory
+-on mac:
+-only npm run start from root directory
+
+## Members
+
+Esteban Guzman StudentID:101028810 . 
+
 
 
 ## Development server
