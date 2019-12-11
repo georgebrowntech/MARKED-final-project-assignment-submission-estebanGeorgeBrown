@@ -12,6 +12,10 @@ clone repo .
 -on mac:
 -only npm run start from root directory
 
+## Login info
+-usernmae:admin . 
+--password:admin . 
+
 ## Members
 
 Esteban Guzman StudentID:101028810 .  
