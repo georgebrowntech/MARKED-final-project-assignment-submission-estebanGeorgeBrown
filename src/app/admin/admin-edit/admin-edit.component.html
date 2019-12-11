@@ -7,6 +7,10 @@
     <select id="level" name="level" [(ngModel)]="user.level" #level="ngModel" ngModel required>
         <option value="{{user.level}}" disabled selected>{{user.level}}</option>
         <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
     </select> 
     <label for="mode">Mode:</label>
         <input id="mode" type="text" name="mode" [(ngModel)]="user.mode" #mode="ngModel" ngModel required><br>
@@ -22,8 +26,8 @@
     <label for="status">Status:</label> 
     <select id="status" name="status" [(ngModel)]="user.status" #status="ngModel" ngModel required>
         <option value="" disabled selected>- Select a status -</option>
-        <option value="Online">Online</option>
-        <option value="In Game">In Game</option>
+        <option value="Available">available</option>
+        <option value="Unavailable">unavailable</option>
     </select>
     <button type="submit" [disabled]="!updateForm.form.valid">Update</button>
     <button (click)="cancel()">Cancel</button>

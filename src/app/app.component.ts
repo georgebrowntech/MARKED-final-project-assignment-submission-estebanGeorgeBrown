@@ -12,7 +12,7 @@ import { AuthService } from './services/auth.service';
   providers: [ApiService, UserService, GameService, AuthService]
 })
 export class AppComponent implements OnInit {
-  title = 'Friend List';
+  title = 'Game Lobby';
   constructor(
     private userService: UserService,
     private gameService: GameService,

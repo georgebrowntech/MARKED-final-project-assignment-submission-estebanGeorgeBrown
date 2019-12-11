@@ -12,7 +12,10 @@ const authRoutes = require("./routes/auth");
 // *********** Connect to Mongo  ***********
 console.log('Attempting to connect to mongoose');
 
-mongoose.connect('mongodb://localhost:27017/gamer-lobby', { useNewUrlParser: true })
+mongoose.connect("mongodb+srv://admin123:admin@cluster0-xgyl3.mongodb.net/test?retryWrites=true&w=majority", 
+{ useNewUrlParser: true,
+  dbName: "gamer-lobby"
+ })
   .then(() => {
     console.log('Connected to Mongo database!');
   })
