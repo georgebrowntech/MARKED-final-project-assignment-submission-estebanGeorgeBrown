@@ -14,7 +14,7 @@ clone repo .
 
 ## Members
 
-Esteban Guzman StudentID:101028810 . 
+Esteban Guzman StudentID:101028810 .  
 Serhii Kravtsov StudentID:101132205 . 
 
 
